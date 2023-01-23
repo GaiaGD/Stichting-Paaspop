@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Recoleta";
+    src: url("/fonts/RecoletaAlt-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Recoleta";
+    src: url("/fonts/RecoletaAlt-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Recoleta";
+    src: url("/fonts/RecoletaAlt-SemiBold.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+body {
+    font-family: "Recoleta";
+    font-size: 18px;
+}
+
+.purple-1 {
+    background-color: #3c0094;
+}
+
+.purple-2 {
+    background-color: #7e10ff;
+}
+
+.nav-link.active {
+    border-bottom: solid 6px #7e10ff;
+}
+
+.social img {
+    min-height: 30px;
+} 

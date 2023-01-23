@@ -23,6 +23,7 @@
 body {
     font-family: "Recoleta";
     font-size: 18px;
+    color: #3c0094;
 }
 
 .purple-1 {
@@ -37,6 +38,43 @@ body {
     border-bottom: solid 6px #7e10ff;
 }
 
+.hero, .intro {
+    padding: 5%;
+}
+
 .social img {
     min-height: 30px;
 } 
+
+.footer {
+    height: 300px;
+}
+
+.footer-img-container {
+    bottom: -300px;
+    right: 0;
+}
+
+.footer-img {
+    height: 550px;
+}
+
+.hero {
+    background: url(/assets/SP-hero-img.png) no-repeat center center;
+    background-size: cover;
+}
+
+.diamond {
+    height: 350px;
+    width: 350px;
+    transform: rotate(45deg);
+    font-size:50px;
+}
+
+.content{
+  transform: rotate(-45deg);
+}
+
+.diamond h1 {
+    font-weight: bold;
+}

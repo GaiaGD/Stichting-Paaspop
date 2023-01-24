@@ -26,77 +26,14 @@ body {
     color: #3c0094;
 }
 
+/* general colors */
+
 .purple-1 {
     background-color: #3c0094;
 }
 
 .purple-2 {
     background-color: #7e10ff;
-}
-
-.logo {
-    height: 250px;
-}
-
-.nav-link.active {
-    border-bottom: solid 6px #7e10ff;
-}
-
-.hero, .intro {
-    padding: 5%;
-}
-
-.hero {
-    background: url(./assets/SP-hero-img.png) no-repeat center center;
-    background-size: cover;
-}
-
-.diamond {
-    height: 350px;
-    width: 350px;
-    transform: rotate(45deg);
-    font-size:50px;
-}
-
-.content{
-  transform: rotate(-45deg);
-}
-
-h1 {
-    font-weight: bold;
-}
-
-.small-print {
-    font-size: 15px;
-}
-
-.cta {
-    background-color: #3c0094;
-    color: #ffffff;
-    font-size: 24px;
-    border-radius: 0;
-    border: #7e10ff 6px solid;
-}
-
-.intro-img-container {
-    bottom: -400px;
-    left: -30%;
-}
-
-.intro-img {
-    height: 800px;
-}
-
-.spacer {
-    height: 100px;
-}
-
-.point {
-    height: 100px;
-    width: 100px;
-    transform: rotate(45deg);
-    bottom: -50px;
-    left: 25%;
 }
 
 .red {
@@ -111,10 +48,63 @@ h1 {
     background-color: #b173ff;
 }
 
+
+.logo {
+    height: 250px;
+}
+
+.nav-link.active {
+    border-bottom: solid 6px #7e10ff;
+}
+
+.hero {
+    background: url(./assets/SP-hero-img.png) no-repeat center center;
+    background-size: cover;
+}
+
+.diamond {
+    height: 350px;
+    width: 350px;
+    transform: rotate(45deg);
+    font-size:50px;
+}
+
+.diamond-content{
+  transform: rotate(-45deg);
+}
+
+
+.small-print {
+    font-size: 15px;
+}
+
+.cta {
+    background-color: #3c0094;
+    color: #ffffff;
+    font-size: 24px;
+    border-radius: 0;
+    border: #7e10ff 6px solid;
+}
+.spacer {
+    height: 100px;
+}
+
+.point {
+    height: 100px;
+    width: 100px;
+    transform: rotate(45deg);
+    bottom: -50px;
+    left: 25%;
+}
+
 .points-info {
     background: url(./assets/points-info.png) no-repeat center bottom;
     background-size: cover;
     height: 90vh;
+}
+
+.info {
+    height: 30vh;
 }
 
 .pointer {
@@ -129,10 +119,6 @@ h1 {
     color: #b173ff;
 }
 
-.social img {
-    min-height: 30px;
-} 
-
 .footer {
     height: 300px;
 }
@@ -145,3 +131,7 @@ h1 {
 .footer-img {
     height: 550px;
 }
+
+.social img {
+    min-height: 30px;
+} 

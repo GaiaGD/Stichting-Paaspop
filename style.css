@@ -34,29 +34,16 @@ body {
     background-color: #7e10ff;
 }
 
+.logo {
+    height: 250px;
+}
+
 .nav-link.active {
     border-bottom: solid 6px #7e10ff;
 }
 
 .hero, .intro {
     padding: 5%;
-}
-
-.social img {
-    min-height: 30px;
-} 
-
-.footer {
-    height: 300px;
-}
-
-.footer-img-container {
-    bottom: -300px;
-    right: 0;
-}
-
-.footer-img {
-    height: 550px;
 }
 
 .hero {
@@ -75,6 +62,70 @@ body {
   transform: rotate(-45deg);
 }
 
-.diamond h1 {
+h1 {
     font-weight: bold;
+}
+
+.cta {
+    background-color: #3c0094;
+    color: #ffffff;
+    font-size: 24px;
+    border-radius: 0;
+    border: #7e10ff 6px solid;
+}
+
+.intro-img-container {
+    bottom: -400px;
+    left: -30%;
+}
+
+.intro-img {
+    height: 800px;
+}
+
+.spacer {
+    height: 100px;
+}
+
+.point {
+    height: 100px;
+    width: 100px;
+    transform: rotate(45deg);
+    bottom: -50px;
+    left: 25%;
+}
+
+.red {
+    background-color: #ff1220;
+}
+
+.yellow {
+    background-color: #ffb833;
+}
+
+.purple-3 {
+    background-color: #b173ff;
+}
+
+.points-info {
+    background: url(./assets/points-info.png) no-repeat center bottom;
+    background-size: cover;
+    height: 80vh;
+}
+
+.social img {
+    min-height: 30px;
+} 
+
+.footer {
+    height: 300px;
+}
+
+.footer-img-container {
+    bottom: -300px;
+    right: 0;
+}
+
+.footer-img {
+    height: 550px;
 }

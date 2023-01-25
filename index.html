@@ -24,22 +24,22 @@
             <div class="col-9">
                 <ul class="nav justify-content-end pt-5 pb-4 font-weight-bold text-white">
                     <li class="nav-item px-3">
-                    <a class="nav-link text-reset active" href="#">Home</a>
+                        <a class="nav-link text-reset active" href="#">Home</a>
                     </li>
                     <li class="nav-item px-3">
-                    <a class="nav-link text-reset" href="#">Omgeving</a>
+                        <a class="nav-link text-reset" href="#">Omgeving</a>
                     </li>
                     <li class="nav-item px-3">
-                    <a class="nav-link text-reset" href="#">Innovates</a>
+                        <a class="nav-link text-reset" href="#">Innovates</a>
                     </li>
                     <li class="nav-item px-3">
-                    <a class="nav-link text-reset" href="#" tabindex="-1" aria-disabled="true">Goede doelen</a>
+                        <a class="nav-link text-reset" href="#" tabindex="-1" aria-disabled="true">Goede doelen</a>
                     </li>
                     <li class="nav-item px-3">
-                    <a class="nav-link text-reset" href="#">Crew</a>
+                        <a class="nav-link text-reset" href="#">Crew</a>
                     </li>
                     <li class="nav-item px-3">
-                    <a class="nav-link text-reset" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                        <a class="nav-link text-reset" href="#" tabindex="-1" aria-disabled="true">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -55,7 +55,31 @@
                 </div>
             </div>
             <div class="col-6">
-                <h1>hello</h1>
+                <div class="hamburger p-3 float-right" onclick="{toggleMenu(this), toggleDropdown()}">
+                    <div class="line bar1"></div>
+                    <div class="line bar2"></div>
+                    <div class="line bar3"></div>
+                </div>
+            </div>
+        </div>
+        <div id="dropdown" class="row d-none text-white pt-5 pb-3">
+            <div class="col-12 text-center">
+                <a class="nav-link text-reset" href="#">Home</a>
+            </div>
+            <div class="col-12 text-center">
+                <a class="nav-link text-reset" href="#">Omgeving</a>
+            </div>
+            <div class="col-12 text-center">
+                <a class="nav-link text-reset" href="#">Innovates</a>
+            </div>
+            <div class="col-12 text-center">
+                <a class="nav-link text-reset" href="#">Goede doelen</a>
+            </div>
+            <div class="col-12 text-center">
+                <a class="nav-link text-reset" href="#">Crew</a>
+            </div>
+            <div class="col-12 text-center">
+                <a class="nav-link text-reset" href="#">Contact</a>
             </div>
         </div>
     </div>
@@ -67,6 +91,8 @@
             <div class="col-0 col-sm-1"></div>
             <div class="col-sm-4 col-12 p-sm-5 p-0">
                 <div class="mx-auto diamond purple-2 text-white d-flex align-items-center">
+                    <div class="spacer d-block d-sm-none"></div>
+
                     <div class="diamond-content text-center">
                         <h1 class="font-weight-bold">De stichting achter het muziekfestival Paaspop</h1>
                     </div>
@@ -94,7 +120,7 @@
 
     <!-- what is it -->
     <div class="row purple-2 text-white pt-5">
-        <div class="col-sm-8 offset-sm-2 py-5">
+        <div class="col-sm-8 offset-sm-2 py-5 col-12 px-5 px-sm-0">
             <h1 class="font-weight-bold">Wat is stichting Paaspop?</h1>
             <p>Het Paaspop team is het hele jaar door druk bezig met het neerzetten van dit geweldige event.
                 Naast het daadwerkelijke festival zijn er ook veel activiteiten die je wellicht niet direct zou verwachten.
@@ -108,25 +134,25 @@
 
     <!-- points -->
     <div class="row points col-sm-10 offset-sm-1">
-        <div class="col-3 d-none d-sm-block">
+        <div class="col-3 d-none d-lg-block">
             <div class="position-relative">
                 <div class="red point position-absolute">
                 </div>
             </div>
         </div>
-        <div class="col-3 d-none d-sm-block">
+        <div class="col-3 d-none d-lg-block">
             <div class="position-relative">
                 <div class="purple-1 point position-absolute">
                 </div>
             </div>
         </div>
-        <div class="col-3 d-none d-sm-block">
+        <div class="col-3 d-none d-lg-block">
             <div class="position-relative">
                 <div class="yellow point position-absolute">
                 </div>
             </div>
         </div>
-        <div class="col-3 d-none d-sm-block">
+        <div class="col-3 d-none d-lg-block">
             <div class="position-relative">
                 <div class="purple-3 point position-absolute">
                 </div>
@@ -136,33 +162,33 @@
 
     <!-- points info -->
     <div class="row points-info">
-        <div class="d-sm-flex col-sm-10 offset-sm-1 col-12 my-5">
-            <div class="col-sm-3 col-12">
-                <div class="red point d-block d-sm-none mx-auto"></div>
+        <div class="d-lg-flex col-sm-10 offset-sm-1 col-12 my-5">
+            <div class="col-lg-3 col-12">
+                <div class="red point d-block d-lg-none mx-auto"></div>
                 <div class="red text-white mt-5 px-4 py-5 info">
                     <h4 class="font-weight-bold">Omgeving</h4>
                     <p class="small-print">Samen met de omgeving kijken hoe we in ons mooie Schijndel dit event plaats laten vinden op een manier die voor iedereen past.</p>
                 </div>
             </div>
             
-            <div class="col-sm-3 col-12">
-                <div class="purple-1 point d-block d-sm-none mx-auto mt-5"></div>
+            <div class="col-lg-3 col-12">
+                <div class="purple-1 point d-block d-lg-none mx-auto mt-5"></div>
                 <div class="purple-1 text-white mt-5 px-4 py-5 info">
                     <h4 class="font-weight-bold">Vrijwilligers & crew</h4>
                     <p class="small-print">Een festival bouwen doe je samen, telkens met een grote vaste kern aangevuld met nieuwe enthousiastelingen.</p>
                 </div>
             </div>
 
-            <div class="col-sm-3 col-12">
-                <div class="yellow point d-block d-sm-none mx-auto mt-5"></div>
+            <div class="col-lg-3 col-12">
+                <div class="yellow point d-block d-lg-none mx-auto mt-5"></div>
                 <div class="yellow text-white mt-5 px-4 py-5 info">
                     <h4 class="font-weight-bold">Goede doelen</h4>
                     <p class="small-print">Middels ons draagvlak en enorme achterban geld inzamelen en aandacht vragen voor maatschappelijke uitdagingen.</p>
                 </div>
             </div>
             
-            <div class="col-sm-3 col-12">
-                <div class="purple-3 point d-block d-sm-none mx-auto mt-5"></div>
+            <div class="col-lg-3 col-12">
+                <div class="purple-3 point d-block d-lg-none mx-auto mt-5"></div>
                 <div class="purple-3 text-white mt-5 px-4 py-5 info">
                     <h4 class="font-weight-bold">Innovaties</h4>
                     <p class="small-print">De aantrekkingskracht van een muziekfestival in combinatie met een gigantisch ondernemersnetwerk gebruiken om innovatie aan te jagen.</p>
@@ -219,51 +245,58 @@
 
     <!-- FOOTER -->
     <div class="row purple-2 footer">
-            <div class="col-9 text-white my-auto">
-                <div class="row d-flex align-items-end">
-                    <div class="col-3">
-                        <img class="img-fluid pt-5 px-5" src="./assets/SP-logo.svg"/>
-                    </div>
-                    <div class="col-3">
-                        <ul class="list-unstyled mb-0">
-                            <li>Home</li>
-                            <li>Omgeving</li>
-                            <li>Innovates</li>
-                            <li>Goede doelen</li>
-                            <li>Crew</li>
-                            <li>Contact</li>
-                        </ul>
-                    </div>
-                    <div class="col-3">
-                        <p class="mb-0">Spoorlaan 10</p>
-                        <p class="mb-0">5481 SK Schijndel</p>
-                        <p class="mb-0">info@stichtingpaaspop.nl</p>
-                    </div>
-                    <div class="col-3">
-                        <div class="social d-flex col-12">
-                            <div class="pr-3">
-                                <img class="img-fluid" src="./assets/social/fb.svg"/>
-                            </div>
-                            <div class="pr-3">
-                                <img class="img-fluid" src="./assets/social/ig.svg"/>
-                            </div>
-                            <div class="pr-3">
-                                <img class="img-fluid" src="./assets/social/linkedin.svg"/>
-                            </div>
-                            <div class="">
-                                <img class="img-fluid" src="./assets/social/youtube.svg"/>
-                            </div>
+        <div class="col-sm-9 col-12 text-white my-auto">
+            <div class="row d-flex align-items-end">
+                <div class="col-sm-3 col-12 px-5 px-sm-0">
+                    <img class="img-fluid pt-5 px-5" src="./assets/SP-logo.svg"/>
+                </div>
+                <div class="col-sm-3 col-12 py-sm-0 py-3">
+                    <ul class="list-unstyled mb-0">
+                        <li class="text-sm-left text-center">Home</li>
+                        <li class="text-sm-left text-center">Omgeving</li>
+                        <li class="text-sm-left text-center">Innovates</li>
+                        <li class="text-sm-left text-center">Goede doelen</li>
+                        <li class="text-sm-left text-center">Crew</li>
+                        <li class="text-sm-left text-center">Contact</li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-12 py-sm-0 py-3">
+                    <p class="mb-0 text-sm-left text-center">Spoorlaan 10</p>
+                    <p class="mb-0 text-sm-left text-center">5481 SK Schijndel</p>
+                    <p class="mb-0 text-sm-left text-center">info@stichtingpaaspop.nl</p>
+                </div>
+                <div class="col-sm-3 col-12">
+                    <div class="social d-flex col-12">
+                        <div class="col-3 px-2 py-sm-0 py-3">
+                            <img class="img-fluid" src="./assets/social/fb.svg"/>
+                        </div>
+                        <div class="col-3 px-2 py-sm-0 py-3">
+                            <img class="img-fluid" src="./assets/social/ig.svg"/>
+                        </div>
+                        <div class="col-3 px-2 py-sm-0 py-3">
+                            <img class="img-fluid" src="./assets/social/linkedin.svg"/>
+                        </div>
+                        <div class="col-3 px-2 py-sm-0 py-3">
+                            <img class="img-fluid" src="./assets/social/youtube.svg"/>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
-                <div class="position-relative">
-                    <div class="position-absolute footer-img-container start-0">
-                        <img class="footer-img" src="./assets/footer-img.png"/>
-                    </div>
+        </div>
+        <div class="col-sm-3 col-12">
+            <!-- desktop -->
+            <div class="position-relative d-none d-sm-block">
+                <div class="position-absolute footer-img-container start-0">
+                    <img class="footer-img" src="./assets/footer-img.png"/>
                 </div>
             </div>
+            <!-- mobile -->
+            <div class="d-block d-sm-none">
+                <div class="row">
+                    <img class="img-fluid col-6 offset-6" src="./assets/footer-img.png" />
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Optional JavaScript -->

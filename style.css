@@ -26,8 +26,12 @@ html, body {
 
 body {
     font-family: "Recoleta";
-    font-size: 18px;
+    font-size: 1.1em;
     color: #3c0094;
+}
+
+h1.heading {
+    font-size: 3em;
 }
 
 /* general colors */
@@ -92,6 +96,11 @@ body {
 
 .omgeving-hero {
     background: url(./assets/SP-hero-omgeving-img.png) no-repeat center center;
+    background-size: cover;
+}
+
+.logged-in-hero {
+    background: url(./assets/SP-hero-logged-in-img.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -161,13 +170,28 @@ body {
     right: 0;
 }
 
+.logged-in-img-info-container {
+    bottom: -300px;
+    left: 0;
+}
+
 .footer-img {
     height: 550px;
 }
 
 .social img {
     min-height: 30px;
+    max-height: 30px;
 } 
+
+.user img {
+    min-height: 30px;
+    max-height: 30px;
+} 
+
+.logged-in-info {
+    height: 550px;
+}
 
 @media only screen and (max-width:1439px){
     .info {
@@ -190,6 +214,18 @@ body {
     .info {
         height: auto;
     }
+
+
+    .logged-in-img-info-container {
+        bottom: -100px;
+        left: 0;
+    }
+
+
+    .logged-in-info {
+        height: 200px;
+    }
+
 }
 
 /* mobile */
@@ -198,6 +234,10 @@ body {
 
     .logo {
         height: auto;
+    }
+
+    h1.heading {
+        font-size: 2em;
     }
 
     .diamond {

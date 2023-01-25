@@ -12,42 +12,38 @@
   </head>
   <body>
 
-    <!-- NAV -->
+    <!-- WHITE NAV -->
     <!-- desktop -->
-    <div class="purple-1 d-none d-sm-block">
+    <div class="d-none d-sm-block py-4">
         <div class="row">
             <div class="col-3">
                 <div class="position-relative">
                     <img class="logo img-fluid position-absolute p-5" src="./assets/SP-logo.svg" /> 
                 </div>
             </div>
-            <div class="col-9">
-                <ul class="nav justify-content-end pt-5 pb-4 font-weight-bold text-white">
-                    <li class="nav-item px-3">
-                        <a class="nav-link text-reset" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link text-reset active" href="#">Omgeving</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link text-reset" href="#">Innovates</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link text-reset" href="#" tabindex="-1" aria-disabled="true">Goede doelen</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link text-reset" href="#">Crew</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link text-reset" href="#" tabindex="-1" aria-disabled="true">Contact</a>
-                    </li>
-                </ul>
+            <div class="col-6">
+                <h1 class="font-weight-bold text-center heading">OMGEVING PORTAL</h1>
+            </div>
+            <div class="col-3">
+                <div class="cta py-1 px-2 mb-4 btn">
+                    Terug naar de website
+                </div>
             </div>
         </div>
     </div>
 
     <!-- mobile -->
-    <div class="d-block d-sm-none purple-1">
+    <div class="d-block d-sm-none">
+        <div class="row mx-2">
+            <div class="col-12 pt-4">
+                <h1 class="font-weight-bold text-center heading">OMGEVING PORTAL</h1>
+            </div>
+            <div class="col-12">
+                <div class="col-12 cta py-1 px-2 mb-4 btn">
+                    Terug naar de website
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col-6">
                 <div class="position-relative">
@@ -55,77 +51,45 @@
                 </div>
             </div>
             <div class="col-6">
-                <div class="hamburger p-3 float-right" onclick="{toggleMenu(this), toggleDropdown()}">
-                    <div class="line bar1"></div>
-                    <div class="line bar2"></div>
-                    <div class="line bar3"></div>
+                <div class="p-5">
                 </div>
-            </div>
-        </div>
-        <div id="dropdown" class="row d-none text-white pt-5 pb-3">
-            <div class="col-12 text-center">
-                <a class="nav-link text-reset" href="./index.html">Home</a>
-            </div>
-            <div class="col-12 text-center">
-                <a class="nav-link text-reset" href="#">Omgeving</a>
-            </div>
-            <div class="col-12 text-center">
-                <a class="nav-link text-reset" href="#">Innovates</a>
-            </div>
-            <div class="col-12 text-center">
-                <a class="nav-link text-reset" href="#">Goede doelen</a>
-            </div>
-            <div class="col-12 text-center">
-                <a class="nav-link text-reset" href="#">Crew</a>
-            </div>
-            <div class="col-12 text-center">
-                <a class="nav-link text-reset" href="#">Contact</a>
             </div>
         </div>
     </div>
 
 
-    <!-- HERO -->
-    <div class="omgeving-hero p-5">
-        <div class="row p-sm-5 py-5 px-0">
-            <div class="col-0 col-sm-1">
-                <div class="spacer"></div>
-            </div>
-        </div>
-    </div>
 
-    <!-- LOG IN -->
-    <div class="row d-flex align-items-center my-5">
-        <div class="col-sm-3 col-6">
-            <div class="">
-                <img class="img-fluid intro-img" src="./assets/omgeving-intro-img.png" />
-            </div>
-        </div>
-        <div class="col-sm-6 col-12 p-5">
-            <h1 class="font-weight-bold">Omgeving</h1>
+    <!-- LOGIN -->
+    <div class="row purple-1 d-flex align-items-center text-white">
+
+        <div class="col-sm-6 offset-sm-3 col-12 p-5">
+            <div class="spacer d-block d-sm-none"></div>
+            <h1 class="font-weight-bold">Welkom bij de omgeving portal van Stichting Paaspop</h1>
             <div>
-                <h4>Beter een goede buur dan een verre vriend. Op deze pagina willen we graag de meest actuele informatie aanbieden voor de betrokken partijen in de omgeving van het festivalterrein.</h4>
+                <h4>In de portal zullen we de laatste updates en bestanden plaatsen rondom het Paaspop festival. Denk aan de omgevingsvergunning, notulen van bijeenkomsten, et cetera. </h4>
             </div>
-            <div>
-                <h4>Aangezien er diverse groepen van belanghebbenden zijn, en er veelal per gebied andere regels gelden, hebben we gekozen voor een gepersonaliseerde aanpak.</h4>
+            <div class="my-4">
+                <form>
+                    <div class="form-row">
+                      <div class="col-12 col-sm-6">
+                        <input type="text" class="form-control" placeholder="E-mailadres">
+                      </div>
+                      <div class="col-12 col-sm-6 pt-4 pt-sm-0">
+                        <input type="text" class="form-control" placeholder="Wachtwoord">
+                      </div>
+                    </div>
+                </form>
             </div>
-            <div>
-                <h4>Iedereen heeft per adres een eigen login. Op die manier zorgen we er voor dat iedereen de informatie beschikbaar heeft die voor hem of haar relevant is.</h4>
-            </div>
-            <div class="d-sm-flex d-block">
-                <div class="cta py-1 px-2 my-4 btn mr-5">
-                    Inloggen op de omgevingsportal
+            <div class="d-flex justify-content-end">
+                <div class="cta py-1 px-2 mb-4 btn">
+                    Inloggen
                 </div>
-                <div class="cta py-1 px-2 my-4 btn">
-                    Inlog aanvragen
-                </div>
             </div>
             <div>
-                <h4>We nemen de aanvraag in behandeling. Heb je reeds een inlog maar ben je je wachtwoord vergeten, <span class="font-weight-bold">klik dan hier.</h4>
+                <h4>Wachtwoord vergeten? Of voor de eerste keer inloggen? <span class="font-weight-bold">Klik hier</span></h4>
             </div>
         </div>
-        <div class="col-sm-3 col-12">
-        </div>
+
     </div>
 
     <!-- FOOTER -->

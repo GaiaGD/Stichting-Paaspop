@@ -90,6 +90,11 @@ body {
     background-size: cover;
 }
 
+.omgeving-hero {
+    background: url(./assets/SP-hero-omgeving-img.png) no-repeat center center;
+    background-size: cover;
+}
+
 .diamond {
     height: 40vh;
     width: 40vh;

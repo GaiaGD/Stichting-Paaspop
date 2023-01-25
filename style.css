@@ -63,8 +63,8 @@ body {
 }
 
 .diamond {
-    height: 350px;
-    width: 350px;
+    height: 40vh;
+    width: 40vh;
     transform: rotate(45deg);
     font-size:50px;
 }
@@ -72,7 +72,6 @@ body {
 .diamond-content{
   transform: rotate(-45deg);
 }
-
 
 .small-print {
     font-size: 15px;
@@ -85,6 +84,7 @@ body {
     border-radius: 0;
     border: #7e10ff 6px solid;
 }
+
 .spacer {
     height: 100px;
 }
@@ -135,3 +135,34 @@ body {
 .social img {
     min-height: 30px;
 } 
+
+
+
+/* mobile */
+
+@media only screen and (max-width:576px) {
+
+    .logo {
+        height: auto;
+    }
+
+    .diamond {
+        width: 30vh;
+        height: 30vh;
+    }
+
+    .diamond-content h1 {
+        font-size: 25px;
+    }
+
+    .point {
+        height: 50px;
+        width: 50px;
+        transform: rotate(45deg);
+    }
+
+    .points-info {
+        height: auto;
+    }
+
+}
